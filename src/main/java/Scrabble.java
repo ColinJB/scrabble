@@ -5,7 +5,7 @@ public class Scrabble {
   public Integer calculateScore(String input) {
     Integer result = 0;
     String[] letters = {"aeioulnrst", "dg", "bcmp", "fhvwy", "k", "jx", "qz"};
-    String[] inputChars = input.split("");
+    String[] inputChars = input.toLowerCase().split("");
     for (String eachChar : inputChars) {
       if (letters[0].contains(eachChar)) {
         result += 1;

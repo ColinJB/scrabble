@@ -17,4 +17,11 @@ public class ScrabbleTest {
     assertEquals(expected, testScrabble.calculateScore("fbdae"));
   }
 
+  @Test
+  public void calculateScore_returnScoreRegardlessOfCase_1() {
+    Scrabble testScrabble = new Scrabble();
+    Integer expected = 1;
+    assertEquals(expected, testScrabble.calculateScore("A"));
+  }
+
 }
