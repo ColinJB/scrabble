@@ -24,4 +24,11 @@ public class ScrabbleTest {
     assertEquals(expected, testScrabble.calculateScore("A"));
   }
 
+  @Test
+  public void calculateScore_ignoreNonAlphabeticalCharacters_1() {
+    Scrabble testScrabble = new Scrabble();
+    Integer expected = 1;
+    assertEquals(expected, testScrabble.calculateScore("A9!"));
+  }
+
 }
