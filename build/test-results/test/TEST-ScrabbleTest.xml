@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ScrabbleTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-03-21T20:56:44" hostname="Colins-MacBook-Pro.local" time="0.001">
+<testsuite name="ScrabbleTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-03-21T22:25:50" hostname="Colins-MacBook-Pro.local" time="0.001">
   <properties/>
-  <testcase name="calculateScore_returnsScoreOfSingleLetter_1" classname="ScrabbleTest" time="0.001"/>
+  <testcase name="calculateScore_returnScoreOfMultipleLetters_11" classname="ScrabbleTest" time="0.001"/>
+  <testcase name="calculateScore_returnsScoreOfSingleLetter_1" classname="ScrabbleTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
